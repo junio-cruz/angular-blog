@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  color: black;
+  border: 1px solid darkgrey;
+  border-radius: 10px;
+  width: 100%;
+  height: 200px;
+
+
+  .image  {
+    height: 100%;
+    width: 40%;
+  }
+
+  .image > img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .infos {
+    height: 100%;
+    width: 100%;
+    margin-left: 20px;
+
+    overflow: auto;
+    text-overflow: ellipsis;
+  }
+
+  .infos > h2 {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .infos > p {
+    color: black;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
