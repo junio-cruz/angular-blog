@@ -9,6 +9,7 @@ import { TitleComponent } from './components/title/title.component';
 import { MainCardComponent } from './components/main-card/main-card.component';
 import { CardComponent } from './components/card/card.component';
 import {NgOptimizedImage} from "@angular/common";
+import { CardContentComponent } from './pages/card-content/card-content.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import {NgOptimizedImage} from "@angular/common";
     HeaderComponent,
     TitleComponent,
     MainCardComponent,
-    CardComponent
+    CardComponent,
+    CardContentComponent
   ],
   imports: [
     BrowserModule,

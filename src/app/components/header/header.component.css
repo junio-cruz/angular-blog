@@ -6,6 +6,9 @@
   justify-content: space-between;
   align-items: center;
   color: black;
+  border: 2px solid #8E635A;
+  padding: 20px;
+  margin-bottom: 10px;
 
   .link_list {
     display: flex;

@@ -1,13 +1,15 @@
-<div class="container">
-  <a [routerLink]="['content', Id]">
+<section>
+  <div class="container">
     <div class="image">
       <img
         src="{{ imageUrl }}"
+        fill=""
       />
     </div>
     <div class="infos">
       <h2>{{ title }}</h2>
       <p>{{ description }}</p>
     </div>
-  </a>
-<div>
+  </div>
+  <a [routerLink]="['']"><< VOLTAR</a>
+<section>
